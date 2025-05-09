@@ -6,7 +6,9 @@ This project demonstrates how to use Hardhat with Polkadot. It comes with a few 
 
 2) Time is returned in milliseconds in Polkadot. See the ignition module `Lock.ts`.
 
-3) Commands to start a fresh project:
+3) [Create a substrate account using subkey](https://support.polkadot.network/support/solutions/articles/65000180519-how-to-create-an-account-in-subkey) (if you don't have one already): 
+
+4) Commands to start a fresh project:
 
 ```bash
 mkdir hardhat-example
@@ -19,7 +21,7 @@ npx hardhat-polkadot init
 Then configure the hardhat config as per documentation (linked below).
 
 
-4) Commands to run the project:
+5) Commands to run the project:
 
 ```bash
 git clone git@github.com:UtkarshBhardwaj007/hardhat-polkadot-example.git
@@ -35,7 +37,7 @@ npx hardhat compile
 npx hardhat ignition deploy ./ignition/modules/MyToken.ts --network westendAssetHub
 ```
 
-5) Resources:
+6) Resources:
 - [Polkadot Smart Contracts Documentation](https://papermoonio.github.io/polkadot-mkdocs/develop/smart-contracts/)
 - [Polkadot Smart Contracts Tutorial](https://papermoonio.github.io/polkadot-mkdocs/tutorials/smart-contracts/)
 - [Polkadot Smart Contract Basics](https://papermoonio.github.io/polkadot-mkdocs/polkadot-protocol/smart-contract-basics/)
@@ -44,7 +46,7 @@ npx hardhat ignition deploy ./ignition/modules/MyToken.ts --network westendAsset
 - [Remix for Polkadot](https://remix.polkadot.io/)
 - [Old Smart Contract Docs](https://contracts.polkadot.io/)
 
-6) Support Channels:
+7) Support Channels:
 - [Discord](https://discord.gg/polkadot)
 - [Stack Exchange](https://substrate.meta.stackexchange.com/)
 - [Telegram](https://t.me/substratedevs)
