@@ -23,13 +23,19 @@ Then configure the hardhat config as per documentation (linked below).
 
 ```bash
 git clone git@github.com:UtkarshBhardwaj007/hardhat-polkadot-example.git
+
 npm install
+
 npx hardhat vars set WESTEND_HUB_PK (your westend asset hub private key)
+
+(optional) npm install --save-dev solc@<WHATEVER-VERSION-YOU-NEED> (if you need a specific solc version or you get errors regarding your solc version)
+
 npx hardhat compile
+
 npx hardhat ignition deploy ./ignition/modules/MyToken.ts --network westendAssetHub
 ```
 
-1) Resources:
+5) Resources:
 - [Polkadot Smart Contracts Documentation](https://papermoonio.github.io/polkadot-mkdocs/develop/smart-contracts/)
 - [Polkadot Smart Contracts Tutorial](https://papermoonio.github.io/polkadot-mkdocs/tutorials/smart-contracts/)
 - [Polkadot Smart Contract Basics](https://papermoonio.github.io/polkadot-mkdocs/polkadot-protocol/smart-contract-basics/)
@@ -38,7 +44,7 @@ npx hardhat ignition deploy ./ignition/modules/MyToken.ts --network westendAsset
 - [Remix for Polkadot](https://remix.polkadot.io/)
 - [Old Smart Contract Docs](https://contracts.polkadot.io/)
 
-1) Support Channels:
+6) Support Channels:
 - [Discord](https://discord.gg/polkadot)
 - [Stack Exchange](https://substrate.meta.stackexchange.com/)
 - [Telegram](https://t.me/substratedevs)
