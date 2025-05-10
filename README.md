@@ -6,7 +6,7 @@ This project demonstrates how to use Hardhat with Polkadot. It comes with a few 
 
 2) Time is returned in milliseconds in Polkadot. See the ignition module `Lock.ts`.
 
-3) [Create a substrate account using subkey](https://support.polkadot.network/support/solutions/articles/65000180519-how-to-create-an-account-in-subkey) (if you don't have one already): 
+3) [Create a substrate account using subkey](https://paritytech.github.io/polkadot-sdk/master/subkey/index.html) (if you don't have one already): 
 
 4) Commands to start a fresh project:
 
