@@ -21,7 +21,7 @@ const config: HardhatUserConfig = {
             //     dev: true,
             // },
             adapterConfig: {
-                adapterBinaryPath: '/Users/utkarshbhardwaj/Desktop/Projects/UtkarshBhardwaj007/hardhat-polkadot-example/binaries/eth-rpc',
+                adapterBinaryPath: './binaries/eth-rpc',
                 dev: true,
             },
         },
